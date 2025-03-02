@@ -1,0 +1,20 @@
+# -------------------------------
+# Warehouse Management Config File
+# -------------------------------
+
+# Customers:
+# Format: customer <name> <type> <distance_from_warehouse> <max_orders>
+# Types: soldier | civilian
+
+customer Moshe soldier 3 2   # Soldier customer, 3 units away, max 2 orders
+customer Ron civilian 2 1    # Civilian customer, 2 units away, max 1 order
+
+# -------------------------------
+# Volunteers:
+# Format: volunteer <name> <role> <cooldown_or_max_distance> <distance_per_step> <max_orders>
+# Roles: collector | limited_collector | driver | limited_driver
+
+volunteer Tamar collector 2               # Collector, cooldown 2, unlimited orders
+volunteer Ron limited_collector 3 2       # Limited collector, cooldown 3, max 2 orders
+volunteer Tal driver 7 4                  # Driver, max distance 7, step size 4, unlimited orders
+volunteer Din limited_driver 3 2 3        # Limited driver, max distance 3, step size 2, max 3 orders

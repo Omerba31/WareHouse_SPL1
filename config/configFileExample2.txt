@@ -1,0 +1,10 @@
+# -------------------------------
+# Alternative Warehouse Config
+# -------------------------------
+
+# Customers
+customer Moshe soldier 3 2  # Adjusted from 3 to 2 max orders
+
+# Volunteers
+volunteer Ron limited_collector 3 3  
+volunteer Din limited_driver 3 2 3
